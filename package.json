@@ -1,0 +1,14 @@
+{
+    "name": "gprosoft-chatbot",
+    "version": "1.0.0",
+    "description": "Chatbot de WhatsApp para consultas sobre el ERP GproSoft, con RAG sobre Supabase y respuestas generadas por Claude",
+    "main": "api/webhook.js",
+    "type": "module",
+    "scripts": {
+          "ingest": "node ingest.js"
+    },
+    "dependencies": {
+          "@anthropic-ai/sdk": "^0.32.0",
+          "@supabase/supabase-js": "^2.45.0"
+    }
+}
