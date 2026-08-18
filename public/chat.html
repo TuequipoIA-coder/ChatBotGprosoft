@@ -56,7 +56,7 @@
     function addImage(articleId) {
       var img = document.createElement("img");
       img.className = "msg-img";
-      img.src = "/images/" + articleId + ".jpg";
+      img.src = "/final100/" + articleId + ".jpg";
       img.onerror = function () { img.remove(); };
       messagesEl.appendChild(img);
       messagesEl.scrollTop = messagesEl.scrollHeight;
